@@ -1,0 +1,2 @@
+/home/lia/Scrivania/DETECT_MARKER/build/CMakeFiles/create_marker.dir
+/home/lia/Scrivania/DETECT_MARKER/build/CMakeFiles/track_marker.dir
