@@ -1,7 +1,8 @@
 
-#ifndef _ArUco_DrawUtils_H_
-#define _ArUco_DrawUtils_H_
-#include "include_src.h"
+#ifndef _DrawUtils_H_
+#define _DrawUtils_H_
+#include "markerdetector.h"
+#include "cvdrawingutils.h"
 namespace mid {
 /**\brief A set of functions to draw in opencv images
  */

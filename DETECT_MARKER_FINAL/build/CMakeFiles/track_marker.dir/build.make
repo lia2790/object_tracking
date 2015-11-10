@@ -190,28 +190,28 @@ CMakeFiles/track_marker.dir/src/subpixelcorner.cpp.o.provides: CMakeFiles/track_
 
 CMakeFiles/track_marker.dir/src/subpixelcorner.cpp.o.provides.build: CMakeFiles/track_marker.dir/src/subpixelcorner.cpp.o
 
-CMakeFiles/track_marker.dir/src/arucofidmarkers.cpp.o: CMakeFiles/track_marker.dir/flags.make
-CMakeFiles/track_marker.dir/src/arucofidmarkers.cpp.o: ../src/arucofidmarkers.cpp
+CMakeFiles/track_marker.dir/src/fidmarkers.cpp.o: CMakeFiles/track_marker.dir/flags.make
+CMakeFiles/track_marker.dir/src/fidmarkers.cpp.o: ../src/fidmarkers.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/lia/Scrivania/DETECT_MARKER_FINAL/build/CMakeFiles $(CMAKE_PROGRESS_7)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/track_marker.dir/src/arucofidmarkers.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/track_marker.dir/src/arucofidmarkers.cpp.o -c /home/lia/Scrivania/DETECT_MARKER_FINAL/src/arucofidmarkers.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/track_marker.dir/src/fidmarkers.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/track_marker.dir/src/fidmarkers.cpp.o -c /home/lia/Scrivania/DETECT_MARKER_FINAL/src/fidmarkers.cpp
 
-CMakeFiles/track_marker.dir/src/arucofidmarkers.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/track_marker.dir/src/arucofidmarkers.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/lia/Scrivania/DETECT_MARKER_FINAL/src/arucofidmarkers.cpp > CMakeFiles/track_marker.dir/src/arucofidmarkers.cpp.i
+CMakeFiles/track_marker.dir/src/fidmarkers.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/track_marker.dir/src/fidmarkers.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/lia/Scrivania/DETECT_MARKER_FINAL/src/fidmarkers.cpp > CMakeFiles/track_marker.dir/src/fidmarkers.cpp.i
 
-CMakeFiles/track_marker.dir/src/arucofidmarkers.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/track_marker.dir/src/arucofidmarkers.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/lia/Scrivania/DETECT_MARKER_FINAL/src/arucofidmarkers.cpp -o CMakeFiles/track_marker.dir/src/arucofidmarkers.cpp.s
+CMakeFiles/track_marker.dir/src/fidmarkers.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/track_marker.dir/src/fidmarkers.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/lia/Scrivania/DETECT_MARKER_FINAL/src/fidmarkers.cpp -o CMakeFiles/track_marker.dir/src/fidmarkers.cpp.s
 
-CMakeFiles/track_marker.dir/src/arucofidmarkers.cpp.o.requires:
-.PHONY : CMakeFiles/track_marker.dir/src/arucofidmarkers.cpp.o.requires
+CMakeFiles/track_marker.dir/src/fidmarkers.cpp.o.requires:
+.PHONY : CMakeFiles/track_marker.dir/src/fidmarkers.cpp.o.requires
 
-CMakeFiles/track_marker.dir/src/arucofidmarkers.cpp.o.provides: CMakeFiles/track_marker.dir/src/arucofidmarkers.cpp.o.requires
-	$(MAKE) -f CMakeFiles/track_marker.dir/build.make CMakeFiles/track_marker.dir/src/arucofidmarkers.cpp.o.provides.build
-.PHONY : CMakeFiles/track_marker.dir/src/arucofidmarkers.cpp.o.provides
+CMakeFiles/track_marker.dir/src/fidmarkers.cpp.o.provides: CMakeFiles/track_marker.dir/src/fidmarkers.cpp.o.requires
+	$(MAKE) -f CMakeFiles/track_marker.dir/build.make CMakeFiles/track_marker.dir/src/fidmarkers.cpp.o.provides.build
+.PHONY : CMakeFiles/track_marker.dir/src/fidmarkers.cpp.o.provides
 
-CMakeFiles/track_marker.dir/src/arucofidmarkers.cpp.o.provides.build: CMakeFiles/track_marker.dir/src/arucofidmarkers.cpp.o
+CMakeFiles/track_marker.dir/src/fidmarkers.cpp.o.provides.build: CMakeFiles/track_marker.dir/src/fidmarkers.cpp.o
 
 # Object files for target track_marker
 track_marker_OBJECTS = \
@@ -221,7 +221,7 @@ track_marker_OBJECTS = \
 "CMakeFiles/track_marker.dir/src/marker.cpp.o" \
 "CMakeFiles/track_marker.dir/src/markerdetector.cpp.o" \
 "CMakeFiles/track_marker.dir/src/subpixelcorner.cpp.o" \
-"CMakeFiles/track_marker.dir/src/arucofidmarkers.cpp.o"
+"CMakeFiles/track_marker.dir/src/fidmarkers.cpp.o"
 
 # External object files for target track_marker
 track_marker_EXTERNAL_OBJECTS =
@@ -232,7 +232,7 @@ track_marker: CMakeFiles/track_marker.dir/src/cvdrawingutils.cpp.o
 track_marker: CMakeFiles/track_marker.dir/src/marker.cpp.o
 track_marker: CMakeFiles/track_marker.dir/src/markerdetector.cpp.o
 track_marker: CMakeFiles/track_marker.dir/src/subpixelcorner.cpp.o
-track_marker: CMakeFiles/track_marker.dir/src/arucofidmarkers.cpp.o
+track_marker: CMakeFiles/track_marker.dir/src/fidmarkers.cpp.o
 track_marker: CMakeFiles/track_marker.dir/build.make
 track_marker: /usr/local/lib/libopencv_videostab.so.3.0.0
 track_marker: /usr/local/lib/libopencv_videoio.so.3.0.0
@@ -276,7 +276,7 @@ CMakeFiles/track_marker.dir/requires: CMakeFiles/track_marker.dir/src/cvdrawingu
 CMakeFiles/track_marker.dir/requires: CMakeFiles/track_marker.dir/src/marker.cpp.o.requires
 CMakeFiles/track_marker.dir/requires: CMakeFiles/track_marker.dir/src/markerdetector.cpp.o.requires
 CMakeFiles/track_marker.dir/requires: CMakeFiles/track_marker.dir/src/subpixelcorner.cpp.o.requires
-CMakeFiles/track_marker.dir/requires: CMakeFiles/track_marker.dir/src/arucofidmarkers.cpp.o.requires
+CMakeFiles/track_marker.dir/requires: CMakeFiles/track_marker.dir/src/fidmarkers.cpp.o.requires
 .PHONY : CMakeFiles/track_marker.dir/requires
 
 CMakeFiles/track_marker.dir/clean:

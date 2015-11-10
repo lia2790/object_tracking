@@ -1,7 +1,8 @@
 #include <opencv2/highgui/highgui.hpp>
 #include <iostream>
-#include "include_src.h"
-#include "arucofidmarkers.h"
+#include "markerdetector.h"
+#include "cvdrawingutils.h"
+#include "fidmarkers.h"
 using namespace cv;
 using namespace std;
 

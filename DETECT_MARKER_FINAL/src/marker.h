@@ -1,10 +1,9 @@
 
-#ifndef _Aruco_Marker_H
-#define _Aruco_Marker_H
+#ifndef _Marker_H
+#define _Marker_H
 #include <vector>
 #include <iostream>
 #include <opencv2/core/core.hpp>
-//#include "exports.h"
 #include "cameraparameters.h"
 using namespace std;
 namespace mid {

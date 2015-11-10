@@ -1,4 +1,5 @@
 
+#include "fidmarkers.h"
 #include "markerdetector.h"
 #include "subpixelcorner.h"
 #include <opencv2/core/core.hpp>
@@ -8,7 +9,6 @@
 #include <opencv2/highgui/highgui.hpp>
 #include <iostream>
 #include <fstream>
-#include "arucofidmarkers.h"
 #include <valarray>
 #include <omp.h>
 using namespace std;
@@ -229,6 +229,7 @@ void MarkerDetector::detect(const cv::Mat &input, vector< Marker > &detectedMark
     /// detect the position of detected markers if desired
     if (camMatrix.rows != 0 && markerSizeMeters > 0) {
         for (unsigned int i = 0; i < detectedMarkers.size(); i++)
+
 
 
             detectedMarkers[i].calculateExtrinsics(markerSizeMeters, camMatrix, distCoeff, setYPerpendicular);
@@ -852,9 +853,10 @@ void MarkerDetector::findCornerMaxima(vector< cv::Point2f > &Corners, const cv::
 // for each element, search in a region around
 #pragma omp parallel for
 
-    for (size_t i = 0; i < Corners.size(); i++) {
-        cv::Point2f minLimit(std::max(0, int(Corners[i].x - wsize)), std::max(0, int(Corners[i].y - wsize)));
-        cv::Point2f maxLimit(std::min(grey.cols, int(Corners[i].x + wsize)), std::min(grey.rows, int(Corners[i].y + wsize)));
+    for (size_t j = 0; j < Corners.size(); j++) 
+	{
+        cv::Point2f minLimit(std::max(0, int(Corners[j].x - wsize)), std::max(0, int(Corners[j].y - wsize)));
+        cv::Point2f maxLimit(std::min(grey.cols, int(Corners[j].x + wsize)), std::min(grey.rows, int(Corners[j].y + wsize)));
 
         cv::Mat reg = grey(cv::Range(minLimit.y, maxLimit.y), cv::Range(minLimit.x, maxLimit.x));
         cv::Mat harr, harrint;
@@ -863,7 +865,8 @@ void MarkerDetector::findCornerMaxima(vector< cv::Point2f > &Corners, const cv::
         // now, do a sum block operation
         cv::integral(harr, harrint);
         int bls_a = 4;
-        for (int y = bls_a; y < harr.rows - bls_a; y++) {
+        for (int y = bls_a; y < harr.rows - bls_a; y++) 
+		{
             float *h = harr.ptr< float >(y);
             for (int x = bls_a; x < harr.cols - bls_a; x++)
                 h[x] = harrint.at< double >(y + bls_a, x + bls_a) - harrint.at< double >(y + bls_a, x) - harrint.at< double >(y, x + bls_a) +
@@ -876,7 +879,8 @@ void MarkerDetector::findCornerMaxima(vector< cv::Point2f > &Corners, const cv::
         cv::Point2f center(reg.cols / 2, reg.rows / 2);
         ;
         double maxv = 0;
-        for (size_t i = 0; i < harr.rows; i++) {
+        for (size_t i = 0; i < harr.rows; i++) 
+		{
             // L1 dist to center
             float *har = harr.ptr< float >(i);
             for (size_t x = 0; x < harr.cols; x++) {
@@ -888,7 +892,7 @@ void MarkerDetector::findCornerMaxima(vector< cv::Point2f > &Corners, const cv::
                 }
             }
         }
-        Corners[i] = best + minLimit;
+        Corners[j] = best + minLimit;
     }
 }
 };

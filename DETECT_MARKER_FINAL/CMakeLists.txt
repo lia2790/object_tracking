@@ -15,25 +15,21 @@ endif()
 
 
 set(SOURCE program/detection_marker.cpp 
-#	src/board.cpp 
 	src/cameraparameters.cpp 
-#	src/boarddetector.cpp 
 	src/cvdrawingutils.cpp 
 	src/marker.cpp 
 	src/markerdetector.cpp 
 	src/subpixelcorner.cpp 
-	src/arucofidmarkers.cpp)
+	src/fidmarkers.cpp)
 
 
 set(SOURCE1 program/create_marker.cpp 
-#	src/board.cpp 
 	src/cameraparameters.cpp 
-#	src/boarddetector.cpp 
 	src/cvdrawingutils.cpp 
 	src/marker.cpp 
 	src/markerdetector.cpp 
 	src/subpixelcorner.cpp 
-	src/arucofidmarkers.cpp)
+	src/fidmarkers.cpp)
 
 
 

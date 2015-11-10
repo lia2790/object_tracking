@@ -1,6 +1,6 @@
 
-#ifndef _Aruco_CameraParameters_H
-#define _Aruco_CameraParameters_H
+#ifndef _CameraParameters_H
+#define _CameraParameters_H
 //#include "exports.h"
 #include <opencv2/core/core.hpp>
 #include <string>

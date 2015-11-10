@@ -1,5 +1,5 @@
-#ifndef aruco_SUBPIXELCORNER_HPP
-#define aruco_SUBPIXELCORNER_HPP
+#ifndef _SUBPIXELCORNER_HPP
+#define _SUBPIXELCORNER_HPP
 
 #include <opencv2/core/core.hpp> // Basic OpenCV structures (cv::Mat)
 
@@ -30,4 +30,4 @@ class SubPixelCorner {
 };
 }
 
-#endif // SUBPIXELCORNER_HPP
+#endif 

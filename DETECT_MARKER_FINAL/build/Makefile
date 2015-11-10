@@ -175,33 +175,6 @@ program/detection_marker.cpp.s:
 	$(MAKE) -f CMakeFiles/track_marker.dir/build.make CMakeFiles/track_marker.dir/program/detection_marker.cpp.s
 .PHONY : program/detection_marker.cpp.s
 
-src/arucofidmarkers.o: src/arucofidmarkers.cpp.o
-.PHONY : src/arucofidmarkers.o
-
-# target to build an object file
-src/arucofidmarkers.cpp.o:
-	$(MAKE) -f CMakeFiles/create_marker.dir/build.make CMakeFiles/create_marker.dir/src/arucofidmarkers.cpp.o
-	$(MAKE) -f CMakeFiles/track_marker.dir/build.make CMakeFiles/track_marker.dir/src/arucofidmarkers.cpp.o
-.PHONY : src/arucofidmarkers.cpp.o
-
-src/arucofidmarkers.i: src/arucofidmarkers.cpp.i
-.PHONY : src/arucofidmarkers.i
-
-# target to preprocess a source file
-src/arucofidmarkers.cpp.i:
-	$(MAKE) -f CMakeFiles/create_marker.dir/build.make CMakeFiles/create_marker.dir/src/arucofidmarkers.cpp.i
-	$(MAKE) -f CMakeFiles/track_marker.dir/build.make CMakeFiles/track_marker.dir/src/arucofidmarkers.cpp.i
-.PHONY : src/arucofidmarkers.cpp.i
-
-src/arucofidmarkers.s: src/arucofidmarkers.cpp.s
-.PHONY : src/arucofidmarkers.s
-
-# target to generate assembly for a file
-src/arucofidmarkers.cpp.s:
-	$(MAKE) -f CMakeFiles/create_marker.dir/build.make CMakeFiles/create_marker.dir/src/arucofidmarkers.cpp.s
-	$(MAKE) -f CMakeFiles/track_marker.dir/build.make CMakeFiles/track_marker.dir/src/arucofidmarkers.cpp.s
-.PHONY : src/arucofidmarkers.cpp.s
-
 src/cameraparameters.o: src/cameraparameters.cpp.o
 .PHONY : src/cameraparameters.o
 
@@ -255,6 +228,33 @@ src/cvdrawingutils.cpp.s:
 	$(MAKE) -f CMakeFiles/create_marker.dir/build.make CMakeFiles/create_marker.dir/src/cvdrawingutils.cpp.s
 	$(MAKE) -f CMakeFiles/track_marker.dir/build.make CMakeFiles/track_marker.dir/src/cvdrawingutils.cpp.s
 .PHONY : src/cvdrawingutils.cpp.s
+
+src/fidmarkers.o: src/fidmarkers.cpp.o
+.PHONY : src/fidmarkers.o
+
+# target to build an object file
+src/fidmarkers.cpp.o:
+	$(MAKE) -f CMakeFiles/create_marker.dir/build.make CMakeFiles/create_marker.dir/src/fidmarkers.cpp.o
+	$(MAKE) -f CMakeFiles/track_marker.dir/build.make CMakeFiles/track_marker.dir/src/fidmarkers.cpp.o
+.PHONY : src/fidmarkers.cpp.o
+
+src/fidmarkers.i: src/fidmarkers.cpp.i
+.PHONY : src/fidmarkers.i
+
+# target to preprocess a source file
+src/fidmarkers.cpp.i:
+	$(MAKE) -f CMakeFiles/create_marker.dir/build.make CMakeFiles/create_marker.dir/src/fidmarkers.cpp.i
+	$(MAKE) -f CMakeFiles/track_marker.dir/build.make CMakeFiles/track_marker.dir/src/fidmarkers.cpp.i
+.PHONY : src/fidmarkers.cpp.i
+
+src/fidmarkers.s: src/fidmarkers.cpp.s
+.PHONY : src/fidmarkers.s
+
+# target to generate assembly for a file
+src/fidmarkers.cpp.s:
+	$(MAKE) -f CMakeFiles/create_marker.dir/build.make CMakeFiles/create_marker.dir/src/fidmarkers.cpp.s
+	$(MAKE) -f CMakeFiles/track_marker.dir/build.make CMakeFiles/track_marker.dir/src/fidmarkers.cpp.s
+.PHONY : src/fidmarkers.cpp.s
 
 src/marker.o: src/marker.cpp.o
 .PHONY : src/marker.o
@@ -353,15 +353,15 @@ help:
 	@echo "... program/detection_marker.o"
 	@echo "... program/detection_marker.i"
 	@echo "... program/detection_marker.s"
-	@echo "... src/arucofidmarkers.o"
-	@echo "... src/arucofidmarkers.i"
-	@echo "... src/arucofidmarkers.s"
 	@echo "... src/cameraparameters.o"
 	@echo "... src/cameraparameters.i"
 	@echo "... src/cameraparameters.s"
 	@echo "... src/cvdrawingutils.o"
 	@echo "... src/cvdrawingutils.i"
 	@echo "... src/cvdrawingutils.s"
+	@echo "... src/fidmarkers.o"
+	@echo "... src/fidmarkers.i"
+	@echo "... src/fidmarkers.s"
 	@echo "... src/marker.o"
 	@echo "... src/marker.i"
 	@echo "... src/marker.s"

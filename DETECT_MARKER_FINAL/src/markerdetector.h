@@ -1,11 +1,10 @@
 
-#ifndef _ARUCO_MarkerDetector_H
-#define _ARUCO_MarkerDetector_H
+#ifndef _MarkerDetector_H
+#define _MarkerDetector_H
 #include <opencv2/core/core.hpp>
 #include <cstdio>
 #include <iostream>
 #include "cameraparameters.h"
-//#include "exports.h"
 #include "marker.h"
 using namespace std;
 

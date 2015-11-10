@@ -190,28 +190,28 @@ CMakeFiles/create_marker.dir/src/subpixelcorner.cpp.o.provides: CMakeFiles/creat
 
 CMakeFiles/create_marker.dir/src/subpixelcorner.cpp.o.provides.build: CMakeFiles/create_marker.dir/src/subpixelcorner.cpp.o
 
-CMakeFiles/create_marker.dir/src/arucofidmarkers.cpp.o: CMakeFiles/create_marker.dir/flags.make
-CMakeFiles/create_marker.dir/src/arucofidmarkers.cpp.o: ../src/arucofidmarkers.cpp
+CMakeFiles/create_marker.dir/src/fidmarkers.cpp.o: CMakeFiles/create_marker.dir/flags.make
+CMakeFiles/create_marker.dir/src/fidmarkers.cpp.o: ../src/fidmarkers.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/lia/Scrivania/DETECT_MARKER_FINAL/build/CMakeFiles $(CMAKE_PROGRESS_7)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/create_marker.dir/src/arucofidmarkers.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/create_marker.dir/src/arucofidmarkers.cpp.o -c /home/lia/Scrivania/DETECT_MARKER_FINAL/src/arucofidmarkers.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/create_marker.dir/src/fidmarkers.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/create_marker.dir/src/fidmarkers.cpp.o -c /home/lia/Scrivania/DETECT_MARKER_FINAL/src/fidmarkers.cpp
 
-CMakeFiles/create_marker.dir/src/arucofidmarkers.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/create_marker.dir/src/arucofidmarkers.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/lia/Scrivania/DETECT_MARKER_FINAL/src/arucofidmarkers.cpp > CMakeFiles/create_marker.dir/src/arucofidmarkers.cpp.i
+CMakeFiles/create_marker.dir/src/fidmarkers.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/create_marker.dir/src/fidmarkers.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/lia/Scrivania/DETECT_MARKER_FINAL/src/fidmarkers.cpp > CMakeFiles/create_marker.dir/src/fidmarkers.cpp.i
 
-CMakeFiles/create_marker.dir/src/arucofidmarkers.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/create_marker.dir/src/arucofidmarkers.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/lia/Scrivania/DETECT_MARKER_FINAL/src/arucofidmarkers.cpp -o CMakeFiles/create_marker.dir/src/arucofidmarkers.cpp.s
+CMakeFiles/create_marker.dir/src/fidmarkers.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/create_marker.dir/src/fidmarkers.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/lia/Scrivania/DETECT_MARKER_FINAL/src/fidmarkers.cpp -o CMakeFiles/create_marker.dir/src/fidmarkers.cpp.s
 
-CMakeFiles/create_marker.dir/src/arucofidmarkers.cpp.o.requires:
-.PHONY : CMakeFiles/create_marker.dir/src/arucofidmarkers.cpp.o.requires
+CMakeFiles/create_marker.dir/src/fidmarkers.cpp.o.requires:
+.PHONY : CMakeFiles/create_marker.dir/src/fidmarkers.cpp.o.requires
 
-CMakeFiles/create_marker.dir/src/arucofidmarkers.cpp.o.provides: CMakeFiles/create_marker.dir/src/arucofidmarkers.cpp.o.requires
-	$(MAKE) -f CMakeFiles/create_marker.dir/build.make CMakeFiles/create_marker.dir/src/arucofidmarkers.cpp.o.provides.build
-.PHONY : CMakeFiles/create_marker.dir/src/arucofidmarkers.cpp.o.provides
+CMakeFiles/create_marker.dir/src/fidmarkers.cpp.o.provides: CMakeFiles/create_marker.dir/src/fidmarkers.cpp.o.requires
+	$(MAKE) -f CMakeFiles/create_marker.dir/build.make CMakeFiles/create_marker.dir/src/fidmarkers.cpp.o.provides.build
+.PHONY : CMakeFiles/create_marker.dir/src/fidmarkers.cpp.o.provides
 
-CMakeFiles/create_marker.dir/src/arucofidmarkers.cpp.o.provides.build: CMakeFiles/create_marker.dir/src/arucofidmarkers.cpp.o
+CMakeFiles/create_marker.dir/src/fidmarkers.cpp.o.provides.build: CMakeFiles/create_marker.dir/src/fidmarkers.cpp.o
 
 # Object files for target create_marker
 create_marker_OBJECTS = \
@@ -221,7 +221,7 @@ create_marker_OBJECTS = \
 "CMakeFiles/create_marker.dir/src/marker.cpp.o" \
 "CMakeFiles/create_marker.dir/src/markerdetector.cpp.o" \
 "CMakeFiles/create_marker.dir/src/subpixelcorner.cpp.o" \
-"CMakeFiles/create_marker.dir/src/arucofidmarkers.cpp.o"
+"CMakeFiles/create_marker.dir/src/fidmarkers.cpp.o"
 
 # External object files for target create_marker
 create_marker_EXTERNAL_OBJECTS =
@@ -232,7 +232,7 @@ create_marker: CMakeFiles/create_marker.dir/src/cvdrawingutils.cpp.o
 create_marker: CMakeFiles/create_marker.dir/src/marker.cpp.o
 create_marker: CMakeFiles/create_marker.dir/src/markerdetector.cpp.o
 create_marker: CMakeFiles/create_marker.dir/src/subpixelcorner.cpp.o
-create_marker: CMakeFiles/create_marker.dir/src/arucofidmarkers.cpp.o
+create_marker: CMakeFiles/create_marker.dir/src/fidmarkers.cpp.o
 create_marker: CMakeFiles/create_marker.dir/build.make
 create_marker: /usr/local/lib/libopencv_videostab.so.3.0.0
 create_marker: /usr/local/lib/libopencv_videoio.so.3.0.0
@@ -276,7 +276,7 @@ CMakeFiles/create_marker.dir/requires: CMakeFiles/create_marker.dir/src/cvdrawin
 CMakeFiles/create_marker.dir/requires: CMakeFiles/create_marker.dir/src/marker.cpp.o.requires
 CMakeFiles/create_marker.dir/requires: CMakeFiles/create_marker.dir/src/markerdetector.cpp.o.requires
 CMakeFiles/create_marker.dir/requires: CMakeFiles/create_marker.dir/src/subpixelcorner.cpp.o.requires
-CMakeFiles/create_marker.dir/requires: CMakeFiles/create_marker.dir/src/arucofidmarkers.cpp.o.requires
+CMakeFiles/create_marker.dir/requires: CMakeFiles/create_marker.dir/src/fidmarkers.cpp.o.requires
 .PHONY : CMakeFiles/create_marker.dir/requires
 
 CMakeFiles/create_marker.dir/clean:

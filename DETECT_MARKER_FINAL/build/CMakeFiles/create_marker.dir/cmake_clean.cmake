@@ -5,7 +5,7 @@ FILE(REMOVE_RECURSE
   "CMakeFiles/create_marker.dir/src/marker.cpp.o"
   "CMakeFiles/create_marker.dir/src/markerdetector.cpp.o"
   "CMakeFiles/create_marker.dir/src/subpixelcorner.cpp.o"
-  "CMakeFiles/create_marker.dir/src/arucofidmarkers.cpp.o"
+  "CMakeFiles/create_marker.dir/src/fidmarkers.cpp.o"
   "create_marker.pdb"
   "create_marker"
 )

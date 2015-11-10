@@ -5,7 +5,7 @@ FILE(REMOVE_RECURSE
   "CMakeFiles/track_marker.dir/src/marker.cpp.o"
   "CMakeFiles/track_marker.dir/src/markerdetector.cpp.o"
   "CMakeFiles/track_marker.dir/src/subpixelcorner.cpp.o"
-  "CMakeFiles/track_marker.dir/src/arucofidmarkers.cpp.o"
+  "CMakeFiles/track_marker.dir/src/fidmarkers.cpp.o"
   "track_marker.pdb"
   "track_marker"
 )
