@@ -1,2 +1,2 @@
-/home/lia/Scrivania/DETECT_MARKER/build/CMakeFiles/create_marker.dir
-/home/lia/Scrivania/DETECT_MARKER/build/CMakeFiles/track_marker.dir
+/home/lia/Scrivania/OBJECT_TRACK/aruco_essential/DETECT_MARKER_FINAL/build/CMakeFiles/create_marker.dir
+/home/lia/Scrivania/OBJECT_TRACK/aruco_essential/DETECT_MARKER_FINAL/build/CMakeFiles/track_marker.dir

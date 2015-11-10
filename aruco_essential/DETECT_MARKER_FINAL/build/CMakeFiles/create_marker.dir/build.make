@@ -38,10 +38,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/cmake-gui
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/lia/Scrivania/DETECT_MARKER
+CMAKE_SOURCE_DIR = /home/lia/Scrivania/OBJECT_TRACK/aruco_essential/DETECT_MARKER_FINAL
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/lia/Scrivania/DETECT_MARKER/build
+CMAKE_BINARY_DIR = /home/lia/Scrivania/OBJECT_TRACK/aruco_essential/DETECT_MARKER_FINAL/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/create_marker.dir/depend.make
@@ -54,17 +54,17 @@ include CMakeFiles/create_marker.dir/flags.make
 
 CMakeFiles/create_marker.dir/program/create_marker.cpp.o: CMakeFiles/create_marker.dir/flags.make
 CMakeFiles/create_marker.dir/program/create_marker.cpp.o: ../program/create_marker.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/lia/Scrivania/DETECT_MARKER/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/lia/Scrivania/OBJECT_TRACK/aruco_essential/DETECT_MARKER_FINAL/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/create_marker.dir/program/create_marker.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/create_marker.dir/program/create_marker.cpp.o -c /home/lia/Scrivania/DETECT_MARKER/program/create_marker.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/create_marker.dir/program/create_marker.cpp.o -c /home/lia/Scrivania/OBJECT_TRACK/aruco_essential/DETECT_MARKER_FINAL/program/create_marker.cpp
 
 CMakeFiles/create_marker.dir/program/create_marker.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/create_marker.dir/program/create_marker.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/lia/Scrivania/DETECT_MARKER/program/create_marker.cpp > CMakeFiles/create_marker.dir/program/create_marker.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/lia/Scrivania/OBJECT_TRACK/aruco_essential/DETECT_MARKER_FINAL/program/create_marker.cpp > CMakeFiles/create_marker.dir/program/create_marker.cpp.i
 
 CMakeFiles/create_marker.dir/program/create_marker.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/create_marker.dir/program/create_marker.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/lia/Scrivania/DETECT_MARKER/program/create_marker.cpp -o CMakeFiles/create_marker.dir/program/create_marker.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/lia/Scrivania/OBJECT_TRACK/aruco_essential/DETECT_MARKER_FINAL/program/create_marker.cpp -o CMakeFiles/create_marker.dir/program/create_marker.cpp.s
 
 CMakeFiles/create_marker.dir/program/create_marker.cpp.o.requires:
 .PHONY : CMakeFiles/create_marker.dir/program/create_marker.cpp.o.requires
@@ -77,17 +77,17 @@ CMakeFiles/create_marker.dir/program/create_marker.cpp.o.provides.build: CMakeFi
 
 CMakeFiles/create_marker.dir/src/cameraparameters.cpp.o: CMakeFiles/create_marker.dir/flags.make
 CMakeFiles/create_marker.dir/src/cameraparameters.cpp.o: ../src/cameraparameters.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/lia/Scrivania/DETECT_MARKER/build/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/lia/Scrivania/OBJECT_TRACK/aruco_essential/DETECT_MARKER_FINAL/build/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/create_marker.dir/src/cameraparameters.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/create_marker.dir/src/cameraparameters.cpp.o -c /home/lia/Scrivania/DETECT_MARKER/src/cameraparameters.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/create_marker.dir/src/cameraparameters.cpp.o -c /home/lia/Scrivania/OBJECT_TRACK/aruco_essential/DETECT_MARKER_FINAL/src/cameraparameters.cpp
 
 CMakeFiles/create_marker.dir/src/cameraparameters.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/create_marker.dir/src/cameraparameters.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/lia/Scrivania/DETECT_MARKER/src/cameraparameters.cpp > CMakeFiles/create_marker.dir/src/cameraparameters.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/lia/Scrivania/OBJECT_TRACK/aruco_essential/DETECT_MARKER_FINAL/src/cameraparameters.cpp > CMakeFiles/create_marker.dir/src/cameraparameters.cpp.i
 
 CMakeFiles/create_marker.dir/src/cameraparameters.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/create_marker.dir/src/cameraparameters.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/lia/Scrivania/DETECT_MARKER/src/cameraparameters.cpp -o CMakeFiles/create_marker.dir/src/cameraparameters.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/lia/Scrivania/OBJECT_TRACK/aruco_essential/DETECT_MARKER_FINAL/src/cameraparameters.cpp -o CMakeFiles/create_marker.dir/src/cameraparameters.cpp.s
 
 CMakeFiles/create_marker.dir/src/cameraparameters.cpp.o.requires:
 .PHONY : CMakeFiles/create_marker.dir/src/cameraparameters.cpp.o.requires
@@ -100,17 +100,17 @@ CMakeFiles/create_marker.dir/src/cameraparameters.cpp.o.provides.build: CMakeFil
 
 CMakeFiles/create_marker.dir/src/cvdrawingutils.cpp.o: CMakeFiles/create_marker.dir/flags.make
 CMakeFiles/create_marker.dir/src/cvdrawingutils.cpp.o: ../src/cvdrawingutils.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/lia/Scrivania/DETECT_MARKER/build/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/lia/Scrivania/OBJECT_TRACK/aruco_essential/DETECT_MARKER_FINAL/build/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/create_marker.dir/src/cvdrawingutils.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/create_marker.dir/src/cvdrawingutils.cpp.o -c /home/lia/Scrivania/DETECT_MARKER/src/cvdrawingutils.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/create_marker.dir/src/cvdrawingutils.cpp.o -c /home/lia/Scrivania/OBJECT_TRACK/aruco_essential/DETECT_MARKER_FINAL/src/cvdrawingutils.cpp
 
 CMakeFiles/create_marker.dir/src/cvdrawingutils.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/create_marker.dir/src/cvdrawingutils.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/lia/Scrivania/DETECT_MARKER/src/cvdrawingutils.cpp > CMakeFiles/create_marker.dir/src/cvdrawingutils.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/lia/Scrivania/OBJECT_TRACK/aruco_essential/DETECT_MARKER_FINAL/src/cvdrawingutils.cpp > CMakeFiles/create_marker.dir/src/cvdrawingutils.cpp.i
 
 CMakeFiles/create_marker.dir/src/cvdrawingutils.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/create_marker.dir/src/cvdrawingutils.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/lia/Scrivania/DETECT_MARKER/src/cvdrawingutils.cpp -o CMakeFiles/create_marker.dir/src/cvdrawingutils.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/lia/Scrivania/OBJECT_TRACK/aruco_essential/DETECT_MARKER_FINAL/src/cvdrawingutils.cpp -o CMakeFiles/create_marker.dir/src/cvdrawingutils.cpp.s
 
 CMakeFiles/create_marker.dir/src/cvdrawingutils.cpp.o.requires:
 .PHONY : CMakeFiles/create_marker.dir/src/cvdrawingutils.cpp.o.requires
@@ -123,17 +123,17 @@ CMakeFiles/create_marker.dir/src/cvdrawingutils.cpp.o.provides.build: CMakeFiles
 
 CMakeFiles/create_marker.dir/src/marker.cpp.o: CMakeFiles/create_marker.dir/flags.make
 CMakeFiles/create_marker.dir/src/marker.cpp.o: ../src/marker.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/lia/Scrivania/DETECT_MARKER/build/CMakeFiles $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/lia/Scrivania/OBJECT_TRACK/aruco_essential/DETECT_MARKER_FINAL/build/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/create_marker.dir/src/marker.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/create_marker.dir/src/marker.cpp.o -c /home/lia/Scrivania/DETECT_MARKER/src/marker.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/create_marker.dir/src/marker.cpp.o -c /home/lia/Scrivania/OBJECT_TRACK/aruco_essential/DETECT_MARKER_FINAL/src/marker.cpp
 
 CMakeFiles/create_marker.dir/src/marker.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/create_marker.dir/src/marker.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/lia/Scrivania/DETECT_MARKER/src/marker.cpp > CMakeFiles/create_marker.dir/src/marker.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/lia/Scrivania/OBJECT_TRACK/aruco_essential/DETECT_MARKER_FINAL/src/marker.cpp > CMakeFiles/create_marker.dir/src/marker.cpp.i
 
 CMakeFiles/create_marker.dir/src/marker.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/create_marker.dir/src/marker.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/lia/Scrivania/DETECT_MARKER/src/marker.cpp -o CMakeFiles/create_marker.dir/src/marker.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/lia/Scrivania/OBJECT_TRACK/aruco_essential/DETECT_MARKER_FINAL/src/marker.cpp -o CMakeFiles/create_marker.dir/src/marker.cpp.s
 
 CMakeFiles/create_marker.dir/src/marker.cpp.o.requires:
 .PHONY : CMakeFiles/create_marker.dir/src/marker.cpp.o.requires
@@ -146,17 +146,17 @@ CMakeFiles/create_marker.dir/src/marker.cpp.o.provides.build: CMakeFiles/create_
 
 CMakeFiles/create_marker.dir/src/markerdetector.cpp.o: CMakeFiles/create_marker.dir/flags.make
 CMakeFiles/create_marker.dir/src/markerdetector.cpp.o: ../src/markerdetector.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/lia/Scrivania/DETECT_MARKER/build/CMakeFiles $(CMAKE_PROGRESS_5)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/lia/Scrivania/OBJECT_TRACK/aruco_essential/DETECT_MARKER_FINAL/build/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/create_marker.dir/src/markerdetector.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/create_marker.dir/src/markerdetector.cpp.o -c /home/lia/Scrivania/DETECT_MARKER/src/markerdetector.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/create_marker.dir/src/markerdetector.cpp.o -c /home/lia/Scrivania/OBJECT_TRACK/aruco_essential/DETECT_MARKER_FINAL/src/markerdetector.cpp
 
 CMakeFiles/create_marker.dir/src/markerdetector.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/create_marker.dir/src/markerdetector.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/lia/Scrivania/DETECT_MARKER/src/markerdetector.cpp > CMakeFiles/create_marker.dir/src/markerdetector.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/lia/Scrivania/OBJECT_TRACK/aruco_essential/DETECT_MARKER_FINAL/src/markerdetector.cpp > CMakeFiles/create_marker.dir/src/markerdetector.cpp.i
 
 CMakeFiles/create_marker.dir/src/markerdetector.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/create_marker.dir/src/markerdetector.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/lia/Scrivania/DETECT_MARKER/src/markerdetector.cpp -o CMakeFiles/create_marker.dir/src/markerdetector.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/lia/Scrivania/OBJECT_TRACK/aruco_essential/DETECT_MARKER_FINAL/src/markerdetector.cpp -o CMakeFiles/create_marker.dir/src/markerdetector.cpp.s
 
 CMakeFiles/create_marker.dir/src/markerdetector.cpp.o.requires:
 .PHONY : CMakeFiles/create_marker.dir/src/markerdetector.cpp.o.requires
@@ -169,17 +169,17 @@ CMakeFiles/create_marker.dir/src/markerdetector.cpp.o.provides.build: CMakeFiles
 
 CMakeFiles/create_marker.dir/src/subpixelcorner.cpp.o: CMakeFiles/create_marker.dir/flags.make
 CMakeFiles/create_marker.dir/src/subpixelcorner.cpp.o: ../src/subpixelcorner.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/lia/Scrivania/DETECT_MARKER/build/CMakeFiles $(CMAKE_PROGRESS_6)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/lia/Scrivania/OBJECT_TRACK/aruco_essential/DETECT_MARKER_FINAL/build/CMakeFiles $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/create_marker.dir/src/subpixelcorner.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/create_marker.dir/src/subpixelcorner.cpp.o -c /home/lia/Scrivania/DETECT_MARKER/src/subpixelcorner.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/create_marker.dir/src/subpixelcorner.cpp.o -c /home/lia/Scrivania/OBJECT_TRACK/aruco_essential/DETECT_MARKER_FINAL/src/subpixelcorner.cpp
 
 CMakeFiles/create_marker.dir/src/subpixelcorner.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/create_marker.dir/src/subpixelcorner.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/lia/Scrivania/DETECT_MARKER/src/subpixelcorner.cpp > CMakeFiles/create_marker.dir/src/subpixelcorner.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/lia/Scrivania/OBJECT_TRACK/aruco_essential/DETECT_MARKER_FINAL/src/subpixelcorner.cpp > CMakeFiles/create_marker.dir/src/subpixelcorner.cpp.i
 
 CMakeFiles/create_marker.dir/src/subpixelcorner.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/create_marker.dir/src/subpixelcorner.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/lia/Scrivania/DETECT_MARKER/src/subpixelcorner.cpp -o CMakeFiles/create_marker.dir/src/subpixelcorner.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/lia/Scrivania/OBJECT_TRACK/aruco_essential/DETECT_MARKER_FINAL/src/subpixelcorner.cpp -o CMakeFiles/create_marker.dir/src/subpixelcorner.cpp.s
 
 CMakeFiles/create_marker.dir/src/subpixelcorner.cpp.o.requires:
 .PHONY : CMakeFiles/create_marker.dir/src/subpixelcorner.cpp.o.requires
@@ -192,17 +192,17 @@ CMakeFiles/create_marker.dir/src/subpixelcorner.cpp.o.provides.build: CMakeFiles
 
 CMakeFiles/create_marker.dir/src/arucofidmarkers.cpp.o: CMakeFiles/create_marker.dir/flags.make
 CMakeFiles/create_marker.dir/src/arucofidmarkers.cpp.o: ../src/arucofidmarkers.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/lia/Scrivania/DETECT_MARKER/build/CMakeFiles $(CMAKE_PROGRESS_7)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/lia/Scrivania/OBJECT_TRACK/aruco_essential/DETECT_MARKER_FINAL/build/CMakeFiles $(CMAKE_PROGRESS_7)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/create_marker.dir/src/arucofidmarkers.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/create_marker.dir/src/arucofidmarkers.cpp.o -c /home/lia/Scrivania/DETECT_MARKER/src/arucofidmarkers.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/create_marker.dir/src/arucofidmarkers.cpp.o -c /home/lia/Scrivania/OBJECT_TRACK/aruco_essential/DETECT_MARKER_FINAL/src/arucofidmarkers.cpp
 
 CMakeFiles/create_marker.dir/src/arucofidmarkers.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/create_marker.dir/src/arucofidmarkers.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/lia/Scrivania/DETECT_MARKER/src/arucofidmarkers.cpp > CMakeFiles/create_marker.dir/src/arucofidmarkers.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/lia/Scrivania/OBJECT_TRACK/aruco_essential/DETECT_MARKER_FINAL/src/arucofidmarkers.cpp > CMakeFiles/create_marker.dir/src/arucofidmarkers.cpp.i
 
 CMakeFiles/create_marker.dir/src/arucofidmarkers.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/create_marker.dir/src/arucofidmarkers.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/lia/Scrivania/DETECT_MARKER/src/arucofidmarkers.cpp -o CMakeFiles/create_marker.dir/src/arucofidmarkers.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/lia/Scrivania/OBJECT_TRACK/aruco_essential/DETECT_MARKER_FINAL/src/arucofidmarkers.cpp -o CMakeFiles/create_marker.dir/src/arucofidmarkers.cpp.s
 
 CMakeFiles/create_marker.dir/src/arucofidmarkers.cpp.o.requires:
 .PHONY : CMakeFiles/create_marker.dir/src/arucofidmarkers.cpp.o.requires
@@ -284,6 +284,6 @@ CMakeFiles/create_marker.dir/clean:
 .PHONY : CMakeFiles/create_marker.dir/clean
 
 CMakeFiles/create_marker.dir/depend:
-	cd /home/lia/Scrivania/DETECT_MARKER/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lia/Scrivania/DETECT_MARKER /home/lia/Scrivania/DETECT_MARKER /home/lia/Scrivania/DETECT_MARKER/build /home/lia/Scrivania/DETECT_MARKER/build /home/lia/Scrivania/DETECT_MARKER/build/CMakeFiles/create_marker.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/lia/Scrivania/OBJECT_TRACK/aruco_essential/DETECT_MARKER_FINAL/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lia/Scrivania/OBJECT_TRACK/aruco_essential/DETECT_MARKER_FINAL /home/lia/Scrivania/OBJECT_TRACK/aruco_essential/DETECT_MARKER_FINAL /home/lia/Scrivania/OBJECT_TRACK/aruco_essential/DETECT_MARKER_FINAL/build /home/lia/Scrivania/OBJECT_TRACK/aruco_essential/DETECT_MARKER_FINAL/build /home/lia/Scrivania/OBJECT_TRACK/aruco_essential/DETECT_MARKER_FINAL/build/CMakeFiles/create_marker.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/create_marker.dir/depend
 

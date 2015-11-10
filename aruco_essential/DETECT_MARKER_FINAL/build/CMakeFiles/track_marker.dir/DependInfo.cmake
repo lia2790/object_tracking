@@ -4,13 +4,13 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/home/lia/Scrivania/DETECT_MARKER/program/detection_marker.cpp" "/home/lia/Scrivania/DETECT_MARKER/build/CMakeFiles/track_marker.dir/program/detection_marker.cpp.o"
-  "/home/lia/Scrivania/DETECT_MARKER/src/arucofidmarkers.cpp" "/home/lia/Scrivania/DETECT_MARKER/build/CMakeFiles/track_marker.dir/src/arucofidmarkers.cpp.o"
-  "/home/lia/Scrivania/DETECT_MARKER/src/cameraparameters.cpp" "/home/lia/Scrivania/DETECT_MARKER/build/CMakeFiles/track_marker.dir/src/cameraparameters.cpp.o"
-  "/home/lia/Scrivania/DETECT_MARKER/src/cvdrawingutils.cpp" "/home/lia/Scrivania/DETECT_MARKER/build/CMakeFiles/track_marker.dir/src/cvdrawingutils.cpp.o"
-  "/home/lia/Scrivania/DETECT_MARKER/src/marker.cpp" "/home/lia/Scrivania/DETECT_MARKER/build/CMakeFiles/track_marker.dir/src/marker.cpp.o"
-  "/home/lia/Scrivania/DETECT_MARKER/src/markerdetector.cpp" "/home/lia/Scrivania/DETECT_MARKER/build/CMakeFiles/track_marker.dir/src/markerdetector.cpp.o"
-  "/home/lia/Scrivania/DETECT_MARKER/src/subpixelcorner.cpp" "/home/lia/Scrivania/DETECT_MARKER/build/CMakeFiles/track_marker.dir/src/subpixelcorner.cpp.o"
+  "/home/lia/Scrivania/OBJECT_TRACK/aruco_essential/DETECT_MARKER_FINAL/program/detection_marker.cpp" "/home/lia/Scrivania/OBJECT_TRACK/aruco_essential/DETECT_MARKER_FINAL/build/CMakeFiles/track_marker.dir/program/detection_marker.cpp.o"
+  "/home/lia/Scrivania/OBJECT_TRACK/aruco_essential/DETECT_MARKER_FINAL/src/arucofidmarkers.cpp" "/home/lia/Scrivania/OBJECT_TRACK/aruco_essential/DETECT_MARKER_FINAL/build/CMakeFiles/track_marker.dir/src/arucofidmarkers.cpp.o"
+  "/home/lia/Scrivania/OBJECT_TRACK/aruco_essential/DETECT_MARKER_FINAL/src/cameraparameters.cpp" "/home/lia/Scrivania/OBJECT_TRACK/aruco_essential/DETECT_MARKER_FINAL/build/CMakeFiles/track_marker.dir/src/cameraparameters.cpp.o"
+  "/home/lia/Scrivania/OBJECT_TRACK/aruco_essential/DETECT_MARKER_FINAL/src/cvdrawingutils.cpp" "/home/lia/Scrivania/OBJECT_TRACK/aruco_essential/DETECT_MARKER_FINAL/build/CMakeFiles/track_marker.dir/src/cvdrawingutils.cpp.o"
+  "/home/lia/Scrivania/OBJECT_TRACK/aruco_essential/DETECT_MARKER_FINAL/src/marker.cpp" "/home/lia/Scrivania/OBJECT_TRACK/aruco_essential/DETECT_MARKER_FINAL/build/CMakeFiles/track_marker.dir/src/marker.cpp.o"
+  "/home/lia/Scrivania/OBJECT_TRACK/aruco_essential/DETECT_MARKER_FINAL/src/markerdetector.cpp" "/home/lia/Scrivania/OBJECT_TRACK/aruco_essential/DETECT_MARKER_FINAL/build/CMakeFiles/track_marker.dir/src/markerdetector.cpp.o"
+  "/home/lia/Scrivania/OBJECT_TRACK/aruco_essential/DETECT_MARKER_FINAL/src/subpixelcorner.cpp" "/home/lia/Scrivania/OBJECT_TRACK/aruco_essential/DETECT_MARKER_FINAL/build/CMakeFiles/track_marker.dir/src/subpixelcorner.cpp.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 

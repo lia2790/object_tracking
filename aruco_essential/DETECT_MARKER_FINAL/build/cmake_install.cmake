@@ -1,4 +1,4 @@
-# Install script for directory: /home/lia/Scrivania/DETECT_MARKER
+# Install script for directory: /home/lia/Scrivania/OBJECT_TRACK/aruco_essential/DETECT_MARKER_FINAL
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -38,7 +38,7 @@ ELSE(CMAKE_INSTALL_COMPONENT)
   SET(CMAKE_INSTALL_MANIFEST "install_manifest.txt")
 ENDIF(CMAKE_INSTALL_COMPONENT)
 
-FILE(WRITE "/home/lia/Scrivania/DETECT_MARKER/build/${CMAKE_INSTALL_MANIFEST}" "")
+FILE(WRITE "/home/lia/Scrivania/OBJECT_TRACK/aruco_essential/DETECT_MARKER_FINAL/build/${CMAKE_INSTALL_MANIFEST}" "")
 FOREACH(file ${CMAKE_INSTALL_MANIFEST_FILES})
-  FILE(APPEND "/home/lia/Scrivania/DETECT_MARKER/build/${CMAKE_INSTALL_MANIFEST}" "${file}\n")
+  FILE(APPEND "/home/lia/Scrivania/OBJECT_TRACK/aruco_essential/DETECT_MARKER_FINAL/build/${CMAKE_INSTALL_MANIFEST}" "${file}\n")
 ENDFOREACH(file)
