@@ -1,0 +1,3 @@
+<launch>
+	<node name="track_marker" pkg="object_detection" type="track_marker" args="$(find object_detection)/param/out_camera_dataF.yml 0.02" output="screen"/>
+</launch>
