@@ -1,1 +1,0 @@
-/home/lia/Scrivania/SIMPLE_DETECT_MARKER/build/CMakeFiles/tracking.dir
