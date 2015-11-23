@@ -11,6 +11,8 @@
 #include "ObjectTracking.h"
 #include "ros/ros.h"
 #include "std_msgs/String.h"
+#include "object_detection/start.h"
+#include "object_detection/stop.h"
 
 
 using namespace std;
@@ -57,13 +59,40 @@ void cvTackBarEvents(int pos, void *)
 //*****************************************************
 
 
+//*********************************************************
+// ROS SERVICE NODE
+//*********************************************************
+bool action = false;
+
+bool startTrack(object_detection::start::Request &req, object_detection::start::Response &res)
+{
+	action = true;
+	return true;
+}
+
+bool stopTrack(object_detection::stop::Request &req, object_detection::start::Response &res)
+{
+	action = false;
+	return true;
+}
+//*********************************************************
+
+
+
+
 
 
 int main(int argc, char **argv) 
 {
+
+	//node ROS
 	ros::init(argc, argv, "image_processing");
-	ros::NodeHandle node;
+	ros::NodeHandle n;
 	ros::Rate loop_rate(100);
+	ros::ServiceServer Start_serv = n.advertiseService("StartService",startTrack);
+	ros::ServiceServer Stop_serv  = n.advertiseService("StopService",stopTrack);
+
+
 
 	ObjectTracking Ob_track; //declare and automatic acquire stream video from /dev/video0
 // try opening as video
@@ -76,7 +105,7 @@ int main(int argc, char **argv)
 
 	vreader >> Image;//first image 	
 	
-	Ob_track.setValue(argv[1], atof(argv[2], Image);//	
+	Ob_track.setValue(argv[1], atof(argv[2]), Image);//	
        
 	
        
@@ -94,7 +123,7 @@ int main(int argc, char **argv)
 	int count_image = 0;
 
 
-	while(node.ok())
+	while(n.ok())
 	{	
 	  vreader >> Image;//get image from video for image processing	 
 
