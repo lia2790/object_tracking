@@ -285,11 +285,11 @@ void MarkerDetector::detect(const cv::Mat &input, vector< Marker > &detectedMark
 
 
 
-//_____________________________________________
+//______________________________________
 //
 // STEP 6) FINALLY CALCULATE THE POSE ESTIMATE
-//_____________________________________________
-
+//______________________________________
+//
     
     if (camMatrix.rows != 0 && markerSizeMeters > 0) 
         for (unsigned int i = 0; i < detectedMarkers.size(); i++)

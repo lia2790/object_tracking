@@ -8,7 +8,7 @@ ObjectTracking::ObjectTracking()
 	MarkerSize = -1;
 }
 
-void ObjectTracking::setValue(const char *filename, int Mark_size, Mat InImage)
+void ObjectTracking::setValue(const char *filename, float Mark_size, Mat InImage)
 {
 	CamParam.readFromXMLFile(filename); 
 	CamParam.resize(InImage.size()); 	
@@ -34,7 +34,7 @@ void ObjectTracking::ObjectPose(MarkerDetector &MDetector, cv::Mat Img)
 	// draw a 3d cube in each marker if there is 3d info
 	if (CamParam.isValid() && MarkerSize != -1)
 		for (unsigned int i = 0; i < Markers.size(); i++) 
-            {   
+      {   
 			CvDrawingUtils::draw3dCube(Img, Markers[i], CamParam);
 			CvDrawingUtils::draw3dAxis(Img, Markers[i], CamParam);
 		}

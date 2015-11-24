@@ -153,9 +153,9 @@ TARGET_LINK_LIBRARIES(track_marker ${OpenCV_LIBS} ${catkin_LIBRARIES})
 
 # BUILD SERVICE SERVER
 # %Tag(SRVCLIENT)%
-ADD_EXECUTABLE(Start&StopServer src/detection_marker.cpp)
-TARGET_LINK_LIBRARIES(Start&StopServer ${catkin_LIBRARIES})
-ADD_DEPENDENCIES(Start&StopServer object_detection)
+# ADD_EXECUTABLE(Start&StopServer src/detection_marker.cpp)
+# TARGET_LINK_LIBRARIES(Start&StopServer ${catkin_LIBRARIES})
+# ADD_DEPENDENCIES(Start&StopServer object_detection)
 
 # %EndTag(SRVCLIENT)%
 # %EndTag(FULLTEXT)%
