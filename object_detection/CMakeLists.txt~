@@ -91,10 +91,10 @@ INCLUDE_DIRECTORIES(include)#directory where there are the file.h
 # )
 
 ## Generate added messages and services with any dependencies listed here
-# generate_messages(
-#   DEPENDENCIES
-#   std_msgs
-# )
+ generate_messages(
+   DEPENDENCIES
+   std_msgs
+ )
 
 ################################################
 ## Declare ROS dynamic reconfigure parameters ##
@@ -147,6 +147,21 @@ include_directories(
 ADD_EXECUTABLE(track_marker ${SOURCE})#nome dell'eseguibile
 
 TARGET_LINK_LIBRARIES(track_marker ${OpenCV_LIBS} ${catkin_LIBRARIES})
+
+
+
+
+# BUILD SERVICE SERVER
+# %Tag(SRVCLIENT)%
+ADD_EXECUTABLE(Start&StopServer src/detection_marker.cpp)
+TARGET_LINK_LIBRARIES(Start&StopServer ${catkin_LIBRARIES})
+ADD_DEPENDENCIES(Start&StopServer object_detection)
+
+# %EndTag(SRVCLIENT)%
+# %EndTag(FULLTEXT)%
+
+
+
 
 ## Declare a C++ library
 # add_library(object_detection

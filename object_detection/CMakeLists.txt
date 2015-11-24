@@ -148,6 +148,21 @@ ADD_EXECUTABLE(track_marker ${SOURCE})#nome dell'eseguibile
 
 TARGET_LINK_LIBRARIES(track_marker ${OpenCV_LIBS} ${catkin_LIBRARIES})
 
+
+
+
+# BUILD SERVICE SERVER
+# %Tag(SRVCLIENT)%
+# ADD_EXECUTABLE(Start&StopServer src/detection_marker.cpp)
+# TARGET_LINK_LIBRARIES(Start&StopServer ${catkin_LIBRARIES})
+# ADD_DEPENDENCIES(Start&StopServer object_detection)
+
+# %EndTag(SRVCLIENT)%
+# %EndTag(FULLTEXT)%
+
+
+
+
 ## Declare a C++ library
 # add_library(object_detection
 #   src/${PROJECT_NAME}/object_detection.cpp

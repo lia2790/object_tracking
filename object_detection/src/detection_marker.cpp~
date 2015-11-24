@@ -62,7 +62,7 @@ void cvTackBarEvents(int pos, void *)
 //*********************************************************
 // ROS SERVICE NODE
 //*********************************************************
-bool action = false;
+bool action =false;
 
 bool startTrack(object_detection::start::Request &req, object_detection::start::Response &res)
 {
@@ -70,7 +70,7 @@ bool startTrack(object_detection::start::Request &req, object_detection::start::
 	return true;
 }
 
-bool stopTrack(object_detection::stop::Request &req, object_detection::start::Response &res)
+bool stopTrack(object_detection::stop::Request &req, object_detection::stop::Response &res)
 {
 	action = false;
 	return true;
@@ -86,16 +86,18 @@ int main(int argc, char **argv)
 {
 
 	//node ROS
-	ros::init(argc, argv, "image_processing");
-	ros::NodeHandle n;
+	ros::init(argc, argv, "ObjectTracker");
+	ros::NodeHandle n = ros::NodeHandle("ObjectTracker");
 	ros::Rate loop_rate(100);
-	ros::ServiceServer Start_serv = n.advertiseService("StartService",startTrack);
-	ros::ServiceServer Stop_serv  = n.advertiseService("StopService",stopTrack);
+	ros::ServiceServer Start_serv = n.advertiseService("Start",startTrack);
+	ros::ServiceServer Stop_serv  = n.advertiseService("Stop",stopTrack);
 
 
 
-	ObjectTracking Ob_track; //declare and automatic acquire stream video from /dev/video0
-// try opening as video
+	ObjectTracking Ob_track; //class for tracking
+
+
+	// try opening as video
 	VideoCapture vreader(0);
 	if (vreader.isOpened()) 
 	{
@@ -105,7 +107,7 @@ int main(int argc, char **argv)
 
 	vreader >> Image;//first image 	
 	
-	Ob_track.setValue(argv[1], atof(argv[2]), Image);//	
+	Ob_track.setValue(argv[1], atof(argv[2]), Image);//preload size marker, camera parameters 
        
 	
        
@@ -120,29 +122,34 @@ int main(int argc, char **argv)
 	cv::createTrackbar("ThresParam1", "in", &iThresParam1, 13, cvTackBarEvents);
 	cv::createTrackbar("ThresParam2", "in", &iThresParam2, 13, cvTackBarEvents);
 
+
 	int count_image = 0;
 
 
 	while(n.ok())
-	{	
-	  vreader >> Image;//get image from video for image processing	 
+	{
+			if(action)//if true, tracking
+			{	
+				vreader >> Image;//get image from video for image processing	 
 
-	  Ob_track.ObjectPose(MDetector, Image);//image processing with estimate marker pose	
+				Ob_track.ObjectPose(MDetector, Image);//image processing with estimate marker pose	
     
-     
+				count_image++;     
 
-        // show input with augmented information
-        cv::imshow("in", Image);
-        // show also the internal image resulting from the threshold operation
-        cv::imshow("thres", MDetector.getThresholdedImage());
+				// show input with augmented information
+				cv::imshow("in", Image);
+				// show also the internal image resulting from the threshold operation
+				cv::imshow("thres", MDetector.getThresholdedImage());
        
-	  char c = waitKey(10); 
-	  if (c == 27) break;// ESC for exit
 
+	 			char c = waitKey(10); 
+	  			if (c == 27) break;// ESC for exit
+			}//end track
+	  
 	  ros::spinOnce();
 	  loop_rate.sleep();
 
-	  count_image++;
+	  
 	}//end_while    
 
 
