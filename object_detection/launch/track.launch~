@@ -1,5 +1,5 @@
 <launch>
-   <rosparam command="load" file="$(find object_detection)/param/parametri.yaml"/>
+   <rosparam file="$(find object_detection)/param/parametri.yaml"command="load" />
 	<node name="track_marker" pkg="object_detection" type="track_marker" output="screen"/>
 </launch>
 

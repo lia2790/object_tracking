@@ -22,24 +22,24 @@ int main(int argc, char **argv)
 
 	//node ROS
 	ros::init(argc, argv, "ObjectTracker");
-	ros::Rate loop_rate(100);
-	
+
 	TrackerNode track;
+	
+	ros::Rate loop_rate(100);
 
 	int count_image = 0;
 
 
 	while(track.n.ok())
 	{
-			if(track.action)//if true, tracking
-			{
-				track.go();
-				count_image++;
-			}	  
+		if(track.action)//if true, tracking
+		{
+			track.go(true);//true for able feedback video
+			count_image++;
+		}	  
+
 	  ros::spinOnce();
 	  loop_rate.sleep();
-
-	  
 	}//end_while    
 
 

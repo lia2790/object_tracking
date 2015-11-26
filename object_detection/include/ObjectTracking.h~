@@ -19,18 +19,12 @@ class ObjectTracking
 
 	public :
 
-		mid::CameraParameters CamParam;//use the pinhole camera model
 		
-		//camera value of intrinsics matrix obtained with opencv calibration example with chessboard
-		float MarkerSize;//size of marker side
-
-		vector< Marker > Markers;//marker candidate
-
 		ObjectTracking();
 		
 		~ObjectTracking() {}
 
-		void setValue(const char *filename, int Mark_size, cv::Mat InImage);
+		void setValue(std::string filename, float Mark_size, cv::Mat InImage);
 
 		void ObjectPose(MarkerDetector &MDetector,cv::Mat Img);
 

@@ -7,6 +7,7 @@ project(object_detection)
 find_package(catkin REQUIRED COMPONENTS
   roscpp
   rospy
+  roslib
   std_msgs
   message_generation
 )
@@ -32,7 +33,6 @@ set(SOURCE src/detection_marker.cpp
 	src/markerdetector.cpp 
 	src/subpixelcorner.cpp 
 	src/fidmarkers.cpp
-	src/ObjectTracking.cpp
 	src/TrackerNode.cpp)
 
 INCLUDE_DIRECTORIES(include)#directory where there are the file.h
