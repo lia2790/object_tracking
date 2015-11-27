@@ -10,6 +10,7 @@ find_package(catkin REQUIRED COMPONENTS
   roslib
   std_msgs
   message_generation
+  geometry_msgs
 )
 
 
