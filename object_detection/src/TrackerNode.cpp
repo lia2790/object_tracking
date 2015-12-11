@@ -55,7 +55,7 @@ void TrackerNode::go(bool set)
 
 void TrackerNode::cvTrackBarEventsStatic(int pos, void *that)
 {
-	TrackerNode th = *(TrackerNode *)(that);
+	TrackerNode &th = *(TrackerNode *)(that);
 
 	th.cvTrackBarEvents(pos, (TrackerNode *)(that));
 }

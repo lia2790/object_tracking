@@ -78,10 +78,10 @@ void TrackerNode::cvTrackBarEvents(int pos, TrackerNode *pr)
  
 	pr->MDetector.setThresholdParams(pr->ThresParam1, pr->ThresParam2);
     
-  	Image.copyTo(TheInputImageCopy);
+  	pr->Image.copyTo(TheInputImageCopy);
   
 	cv::imshow("in", TheInputImageCopy);  
-	cv::imshow("thres", MDetector.getThresholdedImage());
+	cv::imshow("thres", pr->MDetector.getThresholdedImage());
 }
 
 
